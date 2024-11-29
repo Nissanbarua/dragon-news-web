@@ -4,6 +4,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a.active {
+  background-color: #e7e7e7;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

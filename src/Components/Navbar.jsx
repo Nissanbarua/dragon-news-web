@@ -1,18 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 import userIcon from "../assets/user.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="">Home</NavLink>
+        <Link>Home</Link>
       </li>
       <li>
-        <NavLink to="">About</NavLink>
+        <Link>About</Link>
       </li>
       <li>
-        <NavLink to="">Career</NavLink>
+        <Link>Career</Link>
       </li>
     </>
   );
